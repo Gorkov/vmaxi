@@ -1,0 +1,19 @@
+/* Global*/
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background-image: url(../img/brushes.png);
+	background-size: 1280px auto;
+	background-position: top center;
+	background-repeat: no-repeat;
+	font-family: 'EuropeNormal';
+}
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 683px;
+	padding-top: 50px;
+}
+/* end Global*/

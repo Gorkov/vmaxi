@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'EuropeNormal';
+    src: url('EuropeNormal.eot');
+    src: url('EuropeNormal.eot') format('embedded-opentype'),
+         url('EuropeNormal.woff2') format('woff2'),
+         url('EuropeNormal.woff') format('woff'),
+         url('EuropeNormal.ttf') format('truetype'),
+         url('EuropeNormal.svg#EuropeNormal') format('svg');
+}
+@font-face {
+    font-family: 'HeinrichScript';
+    src: url('HeinrichScript.eot');
+    src: url('HeinrichScript.eot') format('embedded-opentype'),
+         url('HeinrichScript.woff2') format('woff2'),
+         url('HeinrichScript.woff') format('woff'),
+         url('HeinrichScript.ttf') format('truetype'),
+         url('HeinrichScript.svg#HeinrichScript') format('svg');
+}
+@font-face {
+    font-family: 'Europe_ExtOblique';
+    src: url('Europe_ExtOblique.eot');
+    src: url('Europe_ExtOblique.eot') format('embedded-opentype'),
+         url('Europe_ExtOblique.woff2') format('woff2'),
+         url('Europe_ExtOblique.woff') format('woff'),
+         url('Europe_ExtOblique.ttf') format('truetype'),
+         url('Europe_ExtOblique.svg#Europe_ExtOblique') format('svg');
+}
