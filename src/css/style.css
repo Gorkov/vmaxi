@@ -1,9 +1,8 @@
- /*Global*/
+ /* GLOBAL*/
 html {
 	height: 100%;
 }
 body {
-	height: 2211px;
 	background-image: url(../img/background.png);
 	background-size: auto;
 	background-position: top center;
@@ -11,84 +10,125 @@ body {
 	font-family: 'EuropeNormal';
 }
 .wrapper {
-	background-image: url(../img/sub-background.png);
+	background-image: url(../img/sub-back.png);
 	background-size: auto;
-	background-position: top center;
 	background-repeat: no-repeat;
-	height: 3211px;
+	background-position: top center;
 }
 .page {
 	width: 1024px;
 	position: relative;
-	padding-top: 95px;
+	padding-top: 72px;
 	margin: 0 auto; 
 }
-/* end Global*/
+/* end GLOBAL*/
 
-/*Header*/
+/* HEADER*/
+/* Navigation bar*/
 .nav {
+	margin-bottom: 82px;
 }
 .header-nav {
+	right: 158px;
+	top: 74px;
+	letter-spacing: 7px;
+	padding: 0;
 	position: absolute;
-	right: 114px;
-	top: 76px;
 }
 .header-point {
 	display: inline-block;
-	margin: 0 0px;
+	border: 1px solid #fff;
 }
 .header-link {
+	width: 24px;
+	height: 22px;
 	display: block;
-	width: 20px;
-	height: 20px;
-	background: url(../img/iconHeader.png);
-	margin: 0 10px;
+	background: url(../img/iconHeader.png);;
 }
 .head-chart {
-	background-position: 0px 0px;
+	background-position: 2px 1px;
 }
 .head-truck {
-	background-position: -38px 0px;	
+	background-position: -35px 1px;	
 }
 .head-speech {
-	background-position: -80px 0px;
+	background-position: -72px 1px;
 }
 .head-cash {
-	background-position: 20px 0px;
+	background-position: 26px 0px;
 }
 .login {
-	padding-left: 50px;
 	height: 20px;
 	background: url(../img/icon_logo.png);
 	background-repeat: no-repeat;
-	background-position: 15px 0;
+	background-position: 20px 21px;
 	background-color: #ffdf80;
 	font-family: 'EuropeNormal';
 	font-size: 16px;
+	width: 77px;
+	padding: 23px 9px 17px 43px;
 }
 .login-link	{
-	
+	padding-left: 14px;
+	text-decoration: none;
+}
+/* Header main text*/
+.header-block {
+	margin-left: 378px;
+}
+.header-head, .header-subhead {
+	margin: 0;
 }
 .header-head {
-
+	font-family: 'HeinrichScript';
+	font-size: 54.75px;
+	color: #f88400;
+	font-weight: normal;
+	margin-bottom: 7px;
 }
 .header-subhead {
-
+	font-family: 'HeinrichScript';
+	font-size: 34.56px;
+	color: #757778;
+	font-weight: normal;
+	margin-bottom: 22px
 }
 .header-text {
-
+	width: 365px;
+	font-family: 'EuropeNormal';
+	font-size: 16px;
+	color: #646565;
+	font-weight: normal;
+	margin-bottom: 46px;
 }
+/* Header price*/
 .header-price {
-
+	font-family: 'EuropeNormal';
+	color: #fff;
+	margin-left: 6px;
+	margin-bottom: 22px;
 }
 .price-number {
-
+	font-size: 34.48px;
 }
 .price-val {
-
+	font-size: 21.14px;
+	margin-left: 87px;
+	margin-top: 12px;
 }
+/* Header button*/
 .header-button {
-
+	font-family: 'EuropeNormal';
+	font-size: 16px;
+	color: #be8e0a;
+	background: url(../img/ORDER.png);
+	background-repeat: no-repeat;
+	background-position: 18px 8px;
+	background-color: #ffdc6e;
+	box-shadow: -7.071px 7.071px 9px 0px rgba(0, 0, 0, 0.2);
+	padding: 17px 15px 15px 54px;
+	margin-left: 6px;
+	border: none;
 }
 /*end Header*/
 
@@ -97,7 +137,7 @@ body {
 	text-align: center;
 }
 .pull-left {
-	float: left !important;
+	float: left !important;;
 }
 .pull-right {
 	float: right !important;
