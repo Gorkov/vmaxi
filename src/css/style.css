@@ -10,6 +10,8 @@ body {
 	font-family: 'EuropeNormal';
 }
 .wrapper {
+	width: 1280px;
+	margin: 0 auto;
 	background-image: url(../img/sub-back.png);
 	background-size: auto;
 	background-repeat: no-repeat;
@@ -133,7 +135,7 @@ header {
 
 /* Active section*/
 .active {
-
+	margin-bottom: 80px;
 }
 /* Left active item block*/
 .item-group {
@@ -280,6 +282,126 @@ header {
 	margin-left: 2px;
 }
 /* end Active section*/
+
+/* Comments section*/
+.comment {
+	width: 685px;
+	margin-left: 180px;
+	margin-bottom: 50px;
+}
+.comment-head {
+	font-family: 'HeinrichScript';
+	font-size: 29.98px;
+	font-weight: normal;
+	color: #f9ce73;
+	margin-bottom: 47px;
+}
+/* Comment group*/
+.comment-group {
+	margin-left: 34px;
+	margin-bottom: 8px;
+	box-sizing: border-box;
+}
+.comment-group-last {
+	margin-bottom: 4px;
+}
+/* Comment img*/
+.comment-img {
+	margin-top: 4px;
+}
+/* Commit circle and line*/
+.comment-line {
+	position: relative;
+}
+.circle {
+	position: relative;
+  width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #cfcfcf;
+	position: absolute;
+	left: 33px;
+	top: 41px;
+}
+.circle::before {
+	content:"";
+  position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 12%;
+	left: 12%;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.line {
+	position: absolute;
+	left: 42px;
+	top: 61px;
+	width: 1px;
+	height: 172px;
+	background: #cfcfcf;
+}
+.line-last {
+	height: 0;
+}
+/* Commit block*/
+.comment-block {
+	width: 467px;
+}
+/* Commit block header*/
+.block-header {
+	font-family: 'Europe_ExtOblique';
+	font-size: 18.16px;
+	color: #7bd4f8;
+	margin-bottom: 13px;
+}
+.block-likedis {
+	margin-left: 142px;
+}
+.dislike {
+	background: url(../img/minus.png);;
+}
+.like {
+	background: url(../img/plus.png);
+}
+.like, .dislike {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+}
+/* Comment block score*/
+.block-score, .block-text {
+	font-family: 'EuropeNormal';
+	color: #646565;
+}
+.block-score {
+	color: #a2a3a3;
+	margin-bottom: 6px;
+}
+.score-number {
+	font-size: 27.81px;
+}
+.score-text {
+	margin-left: 52px;
+	font-size: 11.59px;
+	margin-top: 1px;
+}
+/* Commit block text*/
+.block-text {
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+/* Add comment*/
+.block-add {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url(../img/bigPlus.png);
+	background-repeat: no-repeat;
+	margin-left: 160px;
+}
+/* end Comments section*/
 
 /* Common style*/
 .text-center{
