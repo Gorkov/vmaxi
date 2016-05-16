@@ -156,12 +156,12 @@ header {
 	margin-bottom: 17px;
 }
 .item-text {
-	font-family: 'EuropeNormal';
-	font-size: 12px;
 	color: #6e7673;
 	font-weight: normal;
 	padding-right: 160px;
 	margin-bottom: 7px;
+	font-size: 12px;
+	font-family: 'EuropeNormal';
 }
 .item-info {
 	font-family: 'EuropeNormal';
@@ -287,7 +287,7 @@ header {
 .comment {
 	width: 685px;
 	margin-left: 180px;
-	margin-bottom: 50px;
+	margin-bottom: 434px;
 }
 .comment-head {
 	font-family: 'HeinrichScript';
@@ -402,6 +402,67 @@ header {
 	margin-left: 160px;
 }
 /* end Comments section*/
+
+/* Delivery section*/
+.delivery {
+	width: 650px;
+	margin: 0 auto;
+	padding-left: 7px;
+	margin-bottom: 100px;
+}
+/* Delivery text*/
+.delivery-head {
+	font-family: 'HeinrichScript';
+	font-size: 36.36px;
+	color: #571249;
+	margin-bottom: 25px;
+}
+.delivery-subhead {
+	font-family: 'EuropeNormal';
+	font-size: 14.01px;
+	color: #571249;
+	margin-bottom: 14px;
+}
+.delivery-subhead2 {
+	font-family: 'Europe_ExtOblique';
+	font-size: 17.72px;
+	color: #571249;
+	padding-left: 11px;
+	margin-bottom: 31px;
+}
+.delivery-italian {
+	font-size: 12px;
+}
+.delivery-text {
+	text-align: left;
+	margin-left: 26px;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 43px;
+	line-height: 1.2em;
+}
+/* Delivery list*/
+.delivery-list {
+	word-spacing: 96px;
+	font-family: 'Europe_ExtOblique';
+	color: #571249;
+}
+.delivery-item {
+	display: inline-block;
+}
+.item-number {
+	font-family: 'EuropeNormal';
+	font-size: 32.53px;
+}
+.item-forex {
+	font-family: 'EuropeNormal';
+	font-size: 23.53px;
+}
+/* end Delivery section*/
+
+/* Show section*/
+
+/* end Show section*/
 
 /* Common style*/
 .text-center{
