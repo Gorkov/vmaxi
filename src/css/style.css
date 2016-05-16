@@ -126,6 +126,9 @@ header {
 	background-repeat: no-repeat;
 	background-position: 18px 8px;
 	background-color: #ffdc6e;
+	-moz-box-shadow: -7.071px 7.071px 9px 0px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: -7.071px 7.071px 9px 0px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: -7.071px 7.071px 9px 0px rgba(0, 0, 0, 0.2);
 	box-shadow: -7.071px 7.071px 9px 0px rgba(0, 0, 0, 0.2);
 	padding: 17px 15px 15px 54px;
 	margin-left: 6px;
@@ -252,7 +255,7 @@ header {
 	width: 650px;
 	position: absolute;
 	left: -124px;
-	top: 53px;;
+	top: 53px;
 }
 .video-play, .video-play1{
 	float: left;
@@ -468,7 +471,7 @@ header {
 .show {
 	width: 980px;
 	margin-bottom: 81px;
-	margin-left: 94px;;
+	margin-left: 94px;
 }
 .show-group-1, .show-group {
 	display: inline-block;
@@ -477,7 +480,7 @@ header {
 	-webkit-box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
 	-ms-box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
 	box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
-	vertical-align: middle;;;
+	vertical-align: middle;
 }
 .show-group-1 {
 	width: 317px;
@@ -509,7 +512,7 @@ header {
 }
 .show-price-1 {
 	font-family: 'EuropeNormal';
-	font-size: 19.08px;;
+	font-size: 19.08px;
 	margin-right: 21px;
 	margin-top: -4px;
 }
@@ -545,12 +548,16 @@ header {
 footer {
 	padding-bottom: 170px;
 }
+.footer-login, .footer-chart,
+.footer-truck,.footer-speech,
+.footer-cash {
+	background: url(../img/iconFooter.png);
+}
 .footer-login {
 	display: block;
 	width: 28px;
-	height: 28px;;
+	height: 28px;
 	margin-left: 138px;
-	background: url(../img/iconFooter.png);
 	background-position: 0px 0px;
 }
 .footer-nav {
@@ -563,22 +570,18 @@ footer {
 .footer-link {
 	display: block;
 	width: 30px;
-	height: 30px;;
+	height: 30px;
 }
 .footer-chart {
-	background: url(../img/iconFooter.png);
 	background-position: -28px 0;
 }
 .footer-truck {
-	background: url(../img/iconFooter.png);
 	background-position: -60px 1px;
 }
 .footer-speech {
-	background: url(../img/iconFooter.png);
 	background-position: 61px 1px;
 }
 .footer-cash {
-	background: url(../img/iconFooter.png);
 	background-position: 31px 0;
 }
 /* end Footer*/
