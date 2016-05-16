@@ -51,7 +51,7 @@ header {
 	background: url(../img/iconHeader.png);;
 }
 .head-chart {
-	background-position: 2px 1px;
+	background-position: 1px 1px;
 }
 .head-truck {
 	background-position: -35px 1px;	
@@ -256,6 +256,10 @@ header {
 }
 .video-play, .video-play1{
 	float: left;
+	-moz-box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
+	-webkit-box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
+	-ms-box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
+	box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
 }
 .video-play {
 	margin-left: 14px;
@@ -408,7 +412,7 @@ header {
 	width: 650px;
 	margin: 0 auto;
 	padding-left: 7px;
-	margin-bottom: 100px;
+	margin-bottom: 154px;
 }
 /* Delivery text*/
 .delivery-head {
@@ -461,15 +465,130 @@ header {
 /* end Delivery section*/
 
 /* Show section*/
-
+.show {
+	margin-left: 94px;
+	width: 980px;
+	margin-bottom: 81px;
+}
+.show-group-1, .show-group {
+	display: inline-block;
+	color: #fff;
+	-moz-box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
+	-webkit-box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
+	-ms-box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
+	box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
+	vertical-align: middle;;;
+}
+.show-group-1 {
+	width: 317px;
+	height: 194px;
+	background: url(../img/block-lg.png);
+}
+.show-group {
+	width: 258px;
+	height: 171px;
+	background: url(../img/block-sm.png);
+	margin-left: 68px;
+	margin-top: -14px;
+}
+/* First show group*/
+.show-head-1 {
+	font-family: 'HeinrichScript';
+	font-size: 36.36px;
+	margin-top: 16px;
+	margin-left: 117px;
+	margin-right: 32px;
+	margin-bottom: 4px;
+}
+.show-text-1 {
+	font-family: 'EuropeNormal';
+	font-size: 12px;
+	margin-bottom: 8px;
+	margin-left: 117px;
+	margin-right: 32px;
+}
+.show-price-1 {
+	font-family: 'EuropeNormal';
+	font-size: 19.08px;;
+	margin-right: 21px;
+	margin-top: -4px;
+}
+/* Second and third show group*/
+.show-head {
+	font-family: 'HeinrichScript';
+	font-size: 36.36px;
+	margin-top: 18px;
+	margin-left: 95px;
+	margin-right: 15px;
+	margin-bottom: 13px;
+}
+.show-text {
+	font-family: 'EuropeNormal';
+	font-size: 12px;
+	margin-bottom: 8px;
+	margin-left: 95px;
+	margin-right: 15px;
+}
+.show-price {
+	font-family: 'EuropeNormal';
+	font-size: 19.08px;
+	margin-right: 22px;
+}
+.show-number {
+	margin-left: 18px;
+	margin-top: -14px;
+}
 /* end Show section*/
+
+/* Footer*/
+
+footer {
+	padding-bottom: 170px;
+}
+.footer-login {
+	display: block;
+	width: 28px;
+	height: 28px;;
+	margin-left: 138px;
+	background: url(../img/iconFooter.png);
+	background-position: 0px 0px;
+}
+.footer-nav {
+	margin-left: 198px;
+	word-spacing: 23px;
+}
+.footer-point {
+	display: inline-block;
+}
+.footer-link {
+	display: block;
+	width: 30px;
+	height: 30px;;
+}
+.footer-chart {
+	background: url(../img/iconFooter.png);
+	background-position: -28px 0;
+}
+.footer-truck {
+	background: url(../img/iconFooter.png);
+	background-position: -60px 1px;
+}
+.footer-speech {
+	background: url(../img/iconFooter.png);
+	background-position: 61px 1px;
+}
+.footer-cash {
+	background: url(../img/iconFooter.png);
+	background-position: 31px 0;
+}
+/* end Footer*/
 
 /* Common style*/
 .text-center{
 	text-align: center;
 }
 .pull-left {
-	float: left !important;;
+	float: left !important;
 }
 .pull-right {
 	float: right !important;
