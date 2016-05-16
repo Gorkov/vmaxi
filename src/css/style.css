@@ -10,7 +10,7 @@ body {
 	font-family: 'EuropeNormal';
 }
 .wrapper {
-	width: 1280px;
+	width: 1255px;
 	margin: 0 auto;
 	background-image: url(../img/sub-back.png);
 	background-size: auto;
@@ -466,9 +466,9 @@ header {
 
 /* Show section*/
 .show {
-	margin-left: 94px;
 	width: 980px;
 	margin-bottom: 81px;
+	margin-left: 94px;;
 }
 .show-group-1, .show-group {
 	display: inline-block;
@@ -594,13 +594,11 @@ footer {
 	float: right !important;
 }
 /* clearfix */
-.container:before, .clearfix:before,
-.container:after, .clearfix:after {
+.clearfix:before, .clearfix:after {
 	content: " "; /* 1 */
 	display: table; /* 2 */
 }
-.container:after, .clearfix:after {
+.clearfix:after {
   clear: both;	
 }
-
 /* end Common style*/
