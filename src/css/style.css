@@ -142,10 +142,15 @@ header {
 }
 /* Left active item block*/
 .item-group {
-	width: 450px;
 	margin-left: 63px;
-	background: url(../img/itemAct.png);
 	padding-top: 49px;
+	background: #8cd3ee;
+	background: -moz-linear-gradient( 61deg, rgb(106,197,242) 30%, rgb(205,240,160) 93%);
+  background: -webkit-linear-gradient( 61deg, rgb(106,197,242) 30%, rgb(205,240,160) 93%);
+  background: -ms-linear-gradient( 61deg, rgb(106,197,242) 30%, rgb(205,240,160) 93%);
+  background: linear-gradient( 61deg, rgb(106,197,242) 30%, rgb(205,240,160) 93%);
+  opacity: 0.82;
+  width: 450px;
 }
 .item-wrap {
 	padding-left: 36px;
@@ -476,6 +481,11 @@ header {
 .show-group-1, .show-group {
 	display: inline-block;
 	color: #fff;
+	background: #b9a0f8;
+	background: -moz-linear-gradient( 45deg, rgb(55,165,211) 0%, rgb(185,160,248) 100%);
+  background: -webkit-linear-gradient( 45deg, rgb(55,165,211) 0%, rgb(185,160,248) 100%);
+  background: -ms-linear-gradient( 45deg, rgb(55,165,211) 0%, rgb(185,160,248) 100%);
+  background: linear-gradient( 45deg, rgb(55,165,211) 0%, rgb(185,160,248) 100%);;;
 	-moz-box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
 	-webkit-box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
 	-ms-box-shadow: 0px 10px 38.7px 4.3px rgba(0, 0, 0, 0.37);
@@ -485,15 +495,13 @@ header {
 .show-group-1 {
 	width: 317px;
 	height: 194px;
-	background: url(../img/block-lg.png);
 }
 .show-group {
 	width: 258px;
 	height: 171px;
-	background: url(../img/block-sm.png);
 	margin-left: 68px;
 	margin-top: -14px;
-}
+}				
 /* First show group*/
 .show-head-1 {
 	font-family: 'HeinrichScript';
